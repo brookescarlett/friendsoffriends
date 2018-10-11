@@ -30,7 +30,7 @@ class App extends Component {
 
         </div>
 
-        <div className="absolute ml1 top-0 text-container">
+        <div className="absolute top-0 text-container">
           <Content data={data[this.state.display]}/>
         </div>  
         

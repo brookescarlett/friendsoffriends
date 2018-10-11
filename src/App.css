@@ -17,12 +17,16 @@
 }
 
 .text-container {
-  margin-left: 3em;
+  margin-left: 4em;
   margin-top: 6em;
   font-family: 'Freight Display Pro Book';
   width: 25em;
   min-height: 10em;
   z-index: 100;
+}
+
+.text-body {
+  margin-left: 4em;
 }
 
 .title {
@@ -113,20 +117,54 @@
   }
 
   .carousel-cell {
-    height: 20em;
+    height: 17em;
   }
 
   .carousel-cell.is-selected {
     width: 100%;
-    height: 20em;
+    height: 17em;
     position: fixed;
     margin: 0;
     top: 0;
   }
 
+  .flickity-prev-next-button {
+    left: unset;
+    right: unset;
+  }
+
+  .flickity-prev-next-button.previous {
+    left: unset !important;
+}
+
+  .next {
+    margin-top: 5em;
+    right: 0px !important;
+  }
+
+  .previous {
+    margin-top: 10em;
+    right: 0 !important;
+  }
+
+  .text-container {
+    /* margin-left: 1em; */
+    width: 100%;
+    margin-top: 22em;
+    margin-left: 0em;
+
+  }
+
   .text-body {
-    margin-top: 17em;
-    justify-content: center;
-    align-content: center;
+    margin-left: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
   }
 }
