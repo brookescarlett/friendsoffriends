@@ -1,19 +1,19 @@
 @media screen and (min-width: 1400px) {
 
     .carousel-cell {
-        height: 45em;
+        height: 40em;
     }
 
     .carousel-cell.is-selected {
-        height: 45em;
+        height: 40em;
     }
 
     .next {
-        margin-top: 22.75em;
+        margin-top: 19.5em;
     }
 
     .previous {
-        margin-top: 27.5em;
+        margin-top: 24em;
         left: 0px !important;
     }
 
@@ -28,11 +28,11 @@
     }
 
     .side-text {
-        margin-top: 3em;
+        margin-top: 1.5em;
     }
 
     .line {
-        padding: 10em;
+        padding: 9em;
     }
 
  }
