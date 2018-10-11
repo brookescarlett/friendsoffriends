@@ -1,0 +1,11 @@
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+
+    * {
+        color: blue;
+    }
+
+    .carousel-cell .is-selected {
+        height: 30em;
+    }
+
+ }
