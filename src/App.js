@@ -25,15 +25,17 @@ class App extends Component {
 
           <div className="right z1 min-h slider-container">
             <Slider 
-              data={data[this.state.display]} 
-              changeDisplay={this.changeDisplay} />
+              changeDisplay={this.changeDisplay}
+              allData={data}
+            />
           </div>    
 
         </div>
 
         <div className="absolute top-0 z100 min-h text-container">
           <Content 
-            data={data[this.state.display]} />
+            data={data[this.state.display]} 
+          />
         </div>  
         
       </div>

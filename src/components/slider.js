@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import Flickity from 'react-flickity-component'
-
-import maya from '../images/maya.jpg'
-import alejandra from '../images/alejandra.jpg'
-import julia from '../images/julia.jpg'
+import Slide from './slide'
 
 var flickityOptions = {
     "freeScroll": false, "contain": true, "prevNextButtons": true, "pageDots": false, "draggable": false, "accessibility": true, "arrowShape": { x0: 10, x1: 65, y1: 45, x2: 70, y2: 40, x3: 20 }
@@ -18,6 +15,12 @@ export default class Slider extends Component {
         })
     }
 
+    createSlides = () => {
+        return this.props.allData.map(datum => {
+            return <Slide key={datum.title} slug={datum.slug} />
+        })
+    }
+
     render() {
         return (
             <div className="slider">
@@ -25,20 +28,7 @@ export default class Slider extends Component {
                     options={flickityOptions} 
                     flickityRef={c => this.flkty = c}>
 
-                    <div 
-                        className="zneg carousel-cell" 
-                        style={{ backgroundImage: `url(${maya})`, backgroundColor: "rgb(239, 239, 239)"}}>
-                    </div>
-
-                    <div 
-                        className="zneg carousel-cell" 
-                        style={{ backgroundImage: `url(${alejandra})`, backgroundColor: "rgb(239, 239, 239)"}}>
-                    </div>
-
-                    <div 
-                        className="zneg carousel-cell" 
-                        style={{ backgroundImage: `url(${julia})`, backgroundColor: "rgb(239, 239, 239)"}}>
-                    </div>
+                    { this.createSlides() }
 
                 </Flickity>
             </div>
