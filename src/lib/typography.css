@@ -13,3 +13,8 @@
   src:
     url('../fonts/Apercu-Medium.ttf') format('truetype')
 }
+
+.small-font {
+  font-family: 'Apercu Medium';
+  font-size: 0.5em;
+}

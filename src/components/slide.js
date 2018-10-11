@@ -34,7 +34,7 @@ export default class Slide extends Component {
                 style={{ backgroundImage: `url(${this.state.displayImg})`, backgroundColor: "rgb(239, 239, 239)" }}>
 
                 <div className="relative right flex side-text">
-                    <p className="caps h6">Our Classic Shapes</p>
+                    <p className="caps small-font">Our Classic Shapes</p>
                     <div className="line"></div>
                 </div>
             </div>

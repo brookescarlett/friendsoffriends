@@ -14,8 +14,6 @@
 .button {
   border: 1px solid var(--darkGrey);
   width: 50%;
-  font-family: 'Apercu Medium';
-  font-size: 0.5em;
 }
 
 .button:hover {

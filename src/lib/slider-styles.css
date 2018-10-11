@@ -23,8 +23,8 @@
 
 .side-text {
   transform: rotate(90deg);
-  top: 6em;
-  left: 4em;
+  top: 8em;
+  left: 2em;
   margin-right: 0em !important;
   margin-top: 0em !important;
   font-family: 'Apercu Medium';
@@ -34,10 +34,12 @@
 .line {
   width: 40px;
   height: 40px;
-  padding: 6em;
-  margin-left: 0.5em;
-  margin-top: 1.15em;
-  border-top: 1px solid var(--darkGrey);
+  padding: 4.5em;
+  margin-left: 0.7em;
+  margin-top: 0.75em;
+  border-top: 0.5px solid var(--darkGrey);
+  opacity: 0.5;
+
 }
 
 .flickity-slider {
