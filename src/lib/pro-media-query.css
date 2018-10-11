@@ -1,4 +1,4 @@
-@media screen and (min-width: 1400px) and (max-width: 1600px) {
+@media screen and (min-width: 1400px) {
 
     .carousel-cell {
         height: 42em;
@@ -17,8 +17,14 @@
         left: 0px !important;
     }
 
+    .text-container {
+        margin-left: 6em;
+        width: 32em;
+    }
+
     .text-body {
         margin-top: 3em;
+        margin-left: 8em;
     }
 
  }
