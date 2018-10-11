@@ -5,14 +5,14 @@
 .carousel-cell {
   left: 0 !important;
   background-color: var(--lightGrey);
-  height: 27em; 
+  height: 33em; 
   opacity: 0;
   transition: opacity 1.5s ease-in-out;
 }
 
 .carousel-cell.is-selected {
   left: 0 !important;
-  height: 27em;
+  height: 33em;
   width: 100%;
   opacity: 1;
   background-position: center;
@@ -26,7 +26,7 @@
   top: 8em;
   left: 2em;
   margin-right: 0em !important;
-  margin-top: 0em !important;
+  /* margin-top: 0em !important; */
   font-family: 'Apercu Medium';
   color: var(--darkGrey);
 }

@@ -4,6 +4,6 @@
 @import './lib/slider-styles.css';
 @import './lib/content-styles.css';
 @import './lib/positioning.css';
+@import './lib/zindex.css';
 @import './lib/mobile-media-query.css';
 @import './lib/pro-media-query.css';
-@import './lib/zindex.css';
