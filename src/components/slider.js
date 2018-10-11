@@ -22,9 +22,9 @@ export default class Slider extends Component {
         return (
             <div className="slider">
                 <Flickity options={flickityOptions} flickityRef={c => this.flkty = c}>
-                    <div className="carousel-cell" style={{ backgroundImage: `url(${maya})`}}></div>
-                    <div className="carousel-cell" style={{ backgroundImage: `url(${alejandra})`}}></div>
-                    <div className="carousel-cell" style={{ backgroundImage: `url(${julia})`}}></div>
+                    <div className="carousel-cell" style={{ backgroundImage: `url(${maya})`, backgroundColor: "rgb(239, 239, 239)"}}></div>
+                    <div className="carousel-cell" style={{ backgroundImage: `url(${alejandra})`, backgroundColor: "rgb(239, 239, 239)"}}></div>
+                    <div className="carousel-cell" style={{ backgroundImage: `url(${julia})`, backgroundColor: "rgb(239, 239, 239)"}}></div>
                 </Flickity>
             </div>
         )
