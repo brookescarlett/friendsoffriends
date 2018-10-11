@@ -24,13 +24,16 @@ class App extends Component {
           <div className="ml4 zneg min-h gutter"></div>
 
           <div className="right z1 min-h slider-container">
-            <Slider data={data[this.state.display]} changeDisplay={this.changeDisplay}/>
+            <Slider 
+              data={data[this.state.display]} 
+              changeDisplay={this.changeDisplay} />
           </div>    
 
         </div>
 
         <div className="absolute top-0 z100 min-h text-container">
-          <Content data={data[this.state.display]}/>
+          <Content 
+            data={data[this.state.display]} />
         </div>  
         
       </div>

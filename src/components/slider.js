@@ -21,10 +21,25 @@ export default class Slider extends Component {
     render() {
         return (
             <div className="slider">
-                <Flickity options={flickityOptions} flickityRef={c => this.flkty = c}>
-                    <div className="zneg carousel-cell" style={{ backgroundImage: `url(${maya})`, backgroundColor: "rgb(239, 239, 239)"}}></div>
-                    <div className="zneg carousel-cell" style={{ backgroundImage: `url(${alejandra})`, backgroundColor: "rgb(239, 239, 239)"}}></div>
-                    <div className="zneg carousel-cell" style={{ backgroundImage: `url(${julia})`, backgroundColor: "rgb(239, 239, 239)"}}></div>
+                <Flickity 
+                    options={flickityOptions} 
+                    flickityRef={c => this.flkty = c}>
+
+                    <div 
+                        className="zneg carousel-cell" 
+                        style={{ backgroundImage: `url(${maya})`, backgroundColor: "rgb(239, 239, 239)"}}>
+                    </div>
+
+                    <div 
+                        className="zneg carousel-cell" 
+                        style={{ backgroundImage: `url(${alejandra})`, backgroundColor: "rgb(239, 239, 239)"}}>
+                    </div>
+
+                    <div 
+                        className="zneg carousel-cell" 
+                        style={{ backgroundImage: `url(${julia})`, backgroundColor: "rgb(239, 239, 239)"}}>
+                    </div>
+
                 </Flickity>
             </div>
         )
