@@ -23,12 +23,10 @@
 
 .side-text {
   transform: rotate(90deg);
-  /* margin-left: 35em; */
   top: 8em;
   left: 4em;
   margin-right: 0em !important;
   margin-top: 0em !important;
-
   font-family: 'Apercu Medium'
 }
 
