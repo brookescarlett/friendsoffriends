@@ -1,0 +1,20 @@
+.container { 
+  height: 100%;
+}
+
+.gutter {
+  width: 10em;
+  flex-grow: 1;
+}
+
+.slider-container {
+  width: 50em;
+  flex-grow: 5;
+}
+
+.text-container {
+  margin-left: 4em;
+  margin-top: 6em;
+  font-family: 'Freight Display Pro Book';
+  width: 25em;
+}

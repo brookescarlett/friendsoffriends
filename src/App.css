@@ -1,30 +1,3 @@
-.container { 
-  height: 100%;
-}
-
-.gutter {
-  width: 10em;
-  min-height: 10em;
-  z-index: -1;
-  flex-grow: 1;
-}
-
-.slider-container {
-  width: 50em;
-  min-height: 10em;
-  z-index: 1;
-  flex-grow: 5;
-}
-
-.text-container {
-  margin-left: 4em;
-  margin-top: 6em;
-  font-family: 'Freight Display Pro Book';
-  width: 25em;
-  min-height: 10em;
-  z-index: 100;
-}
-
 .text-body {
   margin-left: 4em;
 }
@@ -42,7 +15,7 @@
   border: 1px solid var(--darkGrey);
   width: 50%;
   font-family: 'Apercu Medium';
-  font-size: 8px;
+  font-size: 0.5em;
 }
 
 .button:hover {
@@ -58,8 +31,6 @@
   left: 0 !important;
   background-color: var(--lightGrey);
   height: 27em; 
-  width: 100%;
-  z-index: -1;  
   opacity: 0;
   transition: opacity 1.5s ease-in-out;
 }
@@ -148,7 +119,6 @@
   }
 
   .text-container {
-    /* margin-left: 1em; */
     width: 100%;
     margin-top: 22em;
     margin-left: 0em;

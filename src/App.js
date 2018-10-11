@@ -22,15 +22,15 @@ class App extends Component {
       <div className="fixed top-0 left-0 right-0 bottom-0 my3">
 
         <div className="mt3 mb3 fit flex space-between items-stretch container justify-around">
-          <div className="ml4 gutter"></div>
+          <div className="ml4 zneg min-h gutter"></div>
 
-          <div className="right slider-container">
+          <div className="right z1 min-h slider-container">
             <Slider data={data[this.state.display]} changeDisplay={this.changeDisplay}/>
           </div>    
 
         </div>
 
-        <div className="absolute top-0 text-container">
+        <div className="absolute top-0 z100 min-h text-container">
           <Content data={data[this.state.display]}/>
         </div>  
         
