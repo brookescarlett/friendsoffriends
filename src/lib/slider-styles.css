@@ -53,6 +53,14 @@
   background: var(--black);
 }
 
+.flickity-prev-next-button .flickity-button-icon {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 25%;
+    height: 25%;
+}
+
 .next {
   margin-top: 12.5em;
 }
