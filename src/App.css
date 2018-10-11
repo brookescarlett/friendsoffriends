@@ -53,32 +53,22 @@
 .carousel-cell {
   left: 0 !important;
   background-color: var(--lightGrey);
-  height: 30em; 
+  height: 27em; 
   width: 100%;
   z-index: -1;  
   opacity: 0;
-  transition: opacity 1s ease-in-out;
-  /* animation: changeImage 1s ease-in-out; */
-
+  transition: opacity 1.5s ease-in-out;
 }
 
 .carousel-cell.is-selected {
   left: 0 !important;
-  height: 30em;
+  height: 27em;
   width: 100%;
   opacity: 1;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 5;
-  /* animation: changeImage 1s ease-in-out; */
-
-  /* transition: opacity 1s ease-in-out; */
-}
-
-@keyframes changeImage {
-  from { background-image:  none; opacity: 0 }
-  to { background-image: inherit; opacity: 1 }
 }
 
 .flickity-slider {
@@ -105,11 +95,11 @@
 }
 
 .next {
-  margin-top: 14.5em;
+  margin-top: 12.5em;
 }
 
 .previous {
-  margin-top: 19.25em;
+  margin-top: 17.25em;
   left: 0px !important;
 }
 
