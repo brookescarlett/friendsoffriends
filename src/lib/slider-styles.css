@@ -12,13 +12,14 @@
 
 .carousel-cell.is-selected {
   left: 0 !important;
+  align-self: flex-start;
   height: 33em;
   width: 100%;
   opacity: 1;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 5;
+  z-index: 200;
 }
 
 .side-text {
@@ -42,6 +43,10 @@
 
 }
 
+.flickity-viewport {
+  display: flex;
+}
+
 .flickity-slider {
   transform: none !important;
 }
@@ -55,6 +60,7 @@
   border-radius: 0px;
   border: 0px;
   z-index: 200;
+  align-self: flex-end;
 }
 
 .flickity-prev-next-button:disabled {
