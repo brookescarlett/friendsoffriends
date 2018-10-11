@@ -1,11 +1,24 @@
 @media screen and (min-width: 1400px) and (max-width: 1600px) {
 
-    * {
-        color: blue;
+    .carousel-cell {
+        height: 42em;
     }
 
-    .carousel-cell .is-selected {
-        height: 30em;
+    .carousel-cell.is-selected {
+        height: 42em;
+    }
+
+    .next {
+        margin-top: 23.25em;
+    }
+
+    .previous {
+        margin-top: 28em;
+        left: 0px !important;
+    }
+
+    .text-body {
+        margin-top: 3em;
     }
 
  }
