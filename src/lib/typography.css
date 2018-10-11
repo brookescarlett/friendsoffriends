@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Freight Display Pro Book';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/freightdispprobook-webfont.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Apercu Medium';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/Apercu-Medium.ttf') format('truetype')
+}

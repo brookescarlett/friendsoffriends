@@ -1,0 +1,94 @@
+.container { 
+  height: 100%;
+}
+
+.gutter {
+  width: 10em;
+  min-height: 10em;
+  z-index: -1;
+  flex-grow: 1;
+}
+
+.slider-container {
+  width: 50em;
+  min-height: 10em;
+  z-index: -1;
+  flex-grow: 5;
+}
+
+.text-container {
+  margin-left: 5em;
+  margin-top: 8em;
+  font-family: 'Freight Display Pro Book';
+  width: 20em;
+  min-height: 10em;
+  z-index: 100;
+}
+
+.slider {
+  background-color: var(--lightGrey)
+}
+
+.carousel-cell {
+  background-color: var(--lightGrey);
+  width: 90%;
+  min-height: 30em; 
+  z-index: 1;  
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-cell.is-selected {
+  min-height: 30em;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  z-index: 5;
+  transition: opacity 1s ease-in-out;
+}
+
+.button {
+  border: 1px solid var(--darkGrey);
+  width: 50%;
+  font-family: 'Apercu Medium';
+  font-size: 10px;
+}
+
+.button:hover {
+  background-color: var(--darkGrey);
+  color: white;
+}
+
+.flickity-prev-next-button {
+  left: 0;
+  right: 0;
+  width: 5em;
+  height: 5em;
+  background: var(--darkGrey);
+  border-radius: 0px;
+  border: 0px;
+  z-index: 200;
+}
+
+.flickity-prev-next-button:disabled {
+  opacity: 1 !important;
+}
+
+.flickity-prev-next-button:hover {
+  background: var(--black);
+}
+
+.next {
+  margin-top: 14.5em;
+}
+
+.previous {
+  margin-top: 19.25em;
+  left: 0px !important;
+}
+
+.flickity-prev-next-button .arrow {
+  fill: var(--lightGrey);
+}
