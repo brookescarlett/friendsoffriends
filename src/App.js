@@ -21,8 +21,8 @@ class App extends Component {
     return (
       <div className="fixed top-0 left-0 right-0 bottom-0 my3">
 
-        <div className="ml4 mt3 mb3 fit flex space-between items-stretch container justify-around">
-          <div className="gutter"></div>
+        <div className="mt3 mb3 fit flex space-between items-stretch container justify-around">
+          <div className="ml4 gutter"></div>
 
           <div className="right slider-container">
             <Slider data={data[this.state.display]} changeDisplay={this.changeDisplay}/>
