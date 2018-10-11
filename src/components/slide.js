@@ -32,6 +32,8 @@ export default class Slide extends Component {
             <div
                 className="zneg carousel-cell"
                 style={{ backgroundImage: `url(${this.state.displayImg})`, backgroundColor: "rgb(239, 239, 239)" }}>
+
+                <p className="caps relative right h6 side-text">Our Classic Shapes</p>
             </div>
 
         );
