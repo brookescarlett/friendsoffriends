@@ -1,0 +1,58 @@
+.slider {
+  background-color: var(--lightGrey)
+}
+
+.carousel-cell {
+  left: 0 !important;
+  background-color: var(--lightGrey);
+  height: 27em; 
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.carousel-cell.is-selected {
+  left: 0 !important;
+  height: 27em;
+  width: 100%;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+.flickity-slider {
+  transform: none !important;
+}
+
+.flickity-prev-next-button {
+  left: 0;
+  right: 0;
+  width: 5em;
+  height: 5em;
+  background: var(--darkGrey);
+  border-radius: 0px;
+  border: 0px;
+  z-index: 200;
+}
+
+.flickity-prev-next-button:disabled {
+  opacity: 1 !important;
+}
+
+.flickity-prev-next-button:hover {
+  background: var(--black);
+}
+
+.next {
+  margin-top: 12.5em;
+}
+
+.previous {
+  margin-top: 17.25em;
+  left: 0px !important;
+}
+
+.flickity-prev-next-button .arrow {
+  fill: var(--lightGrey);
+}

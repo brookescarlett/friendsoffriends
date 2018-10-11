@@ -1,0 +1,24 @@
+.text-body {
+  margin-left: 4em;
+}
+
+.title {
+  font-size: 2.25em;
+  letter-spacing: 1.5px;
+}
+
+.description {
+  line-height: 1.5em;
+}
+
+.button {
+  border: 1px solid var(--darkGrey);
+  width: 50%;
+  font-family: 'Apercu Medium';
+  font-size: 0.5em;
+}
+
+.button:hover {
+  background-color: var(--darkGrey);
+  color: white;
+}

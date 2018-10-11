@@ -1,5 +1,8 @@
 @import './lib/typography.css';
 @import './lib/colors.css';
 @import './lib/layout.css';
+@import './lib/slider-styles.css';
+@import './lib/content-styles.css';
 @import './lib/positioning.css';
+@import './lib/media-query.css';
 @import './lib/zindex.css';
