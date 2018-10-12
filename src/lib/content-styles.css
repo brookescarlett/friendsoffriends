@@ -1,19 +1,37 @@
 .text-body {
-  margin-left: 6em;
+  opacity: 1;
+  color: orange;
+  margin-left: 6em;   
+}
+
+.animate {
+  color: blue;
+  opacity: 0;
+  animation-delay: 2s;
+  animation: fadein 2s ease-in-out; 
+  animation-fill-mode: forwards;  
+}
+
+@keyframes fadein {
+  from { opacity: 0 }
+  to { opacity: 1}
+
 }
 
 .title {
   font-size: 2.25em;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.5px;  
 }
 
 .description {
   line-height: 1.5em;
+  
 }
 
 .button {
   border: 1px solid var(--darkGrey);
   width: 50%;
+  
 }
 
 .button:hover {

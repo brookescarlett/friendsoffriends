@@ -12,6 +12,7 @@ export default class Slider extends Component {
     componentDidMount = () => {
         this.flkty.on('change', () => {
             this.props.changeDisplay(this.flkty.selectedIndex)
+            
         })
     }
 
