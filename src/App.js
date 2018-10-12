@@ -16,10 +16,6 @@ class App extends Component {
     this.setState({ display: num })
   }
 
-  renderContent = () =>{
-    return data.map(datum => <Content key={datum.title}data={datum} show={data.indexOf(datum) === this.state.display ? true : false} />)
-  }
-
   render() {
     return (
       <div className="fixed top-0 left-0 right-0 bottom-0 my3">
@@ -37,11 +33,6 @@ class App extends Component {
         </div>
 
         <div className="absolute top-0 z100 min-h text-container" id="tester">
-          {/* {this.renderContent()} */}
-          {/* <Content 
-            data={} 
-            show={data[this.state.display]}
-          /> */}
           <Content 
             data={data[this.state.display]}
           />
